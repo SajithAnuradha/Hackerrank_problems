@@ -30,7 +30,7 @@ void percolateDown(vector<int>& heap, int i) {
         percolateDown(heap, smallest);
     }
 }
-
+// insert element
 void insertElement(vector<int>& heap, int element) {
     heap.push_back(element);
     percolateUp(heap, heap.size() - 1);
