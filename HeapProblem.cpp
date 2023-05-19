@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
+// heap data structure implementation
 using namespace std;
 
 void percolateUp(vector<int>& heap, int i) {
